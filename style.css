@@ -1,0 +1,56 @@
+h1, p {
+  font-family: Lato;
+}
+
+.styled-background {
+  background-color: yellow;
+}
+.CodeMirror {
+  border: 1px solid #aaa;
+  height: auto;
+  resize: vertical;
+}
+.error {
+  color: red;
+}
+.w100 {
+  width: 99%;
+}
+.cur-pointer {
+  cursor: pointer;
+}
+.font-1 {
+  font-size: .7em !important;
+}
+.font-2 {
+  font-size: .9em !important;
+}
+.font-7 {
+  color: tomato;
+  font-size: 3em !important;
+  cursor: pointer;
+}
+.selected {
+  background-color: coral;
+}
+
+.productBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+.alignMiddle {
+  display: flex;
+  align-items: center;
+}
+.iconWrap {
+  position: relative;
+}
+.iconWrap i:last-child {
+  position: absolute;
+  top: -13px;
+  left: 32px;
+}
+.pos-t-4 {
+  position: relative;
+  top: 5px;
+}
